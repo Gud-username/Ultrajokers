@@ -15,7 +15,7 @@ Ultrajokers = {
 -- When making a Sprite For Balatro you need to have a 1x and a 2x file, because the 1x is used for no pixel art smothing, and 2x is used for pixel art smothing
 SMODS.Atlas({
     object_type = "Atlas",
-    key = "PLH", -- this is what you put in your atlas in your joker, consumable, or any other modded item, an example of this can be found in Items/Jokers.lua on line 8
+    key = "Joke1", -- this is what you put in your atlas in your joker, consumable, or any other modded item, an example of this can be found in Items/Jokers.lua on line 8
     path = "Jokers.png",-- this is the name of the file that your sprites will use from your assets folder
     px = 71,
     py = 95,-- the standard 1x size of any joker or consumable is 71x95
