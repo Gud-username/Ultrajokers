@@ -1,0 +1,15 @@
+{
+	"id": "Ultrajokers",
+	"name": "Ultrajokers",
+	"display_name": "Ultrajokers",
+	"author": ["gudusername_5395"],
+	"description": "A mod that will make me ultrakill someone",
+	"prefix": "exmp",
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "729bf2",
+	"badge_text_colour": "6686bb",
+	"version": "1.0.0",
+	"dependencies": [
+	]
+}
