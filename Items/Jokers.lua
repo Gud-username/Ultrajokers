@@ -2,7 +2,7 @@ SMODS.Joker {
     key = "01",
     pos = {x = 0, y = 0},
     rarity = 1,
-    atlas = "PLH",
+    atlas = "Joke1",
     config = { extra = {mult = 0, mult_mod = 1} },
     cost = 6,
     loc_vars = function (self, info_queue, center)
@@ -26,7 +26,7 @@ SMODS.Joker {
     key = "02",
     pos = {x = 1, y = 0},
     rarity = 1,
-    atlas = "PLH",
+    atlas = "Joke1",
     config = { extra = {X_mult = 0.1, mult_mod = 0.02} },
     cost = 6,
     loc_vars = function (self, info_queue, center)
