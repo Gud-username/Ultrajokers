@@ -15,9 +15,12 @@ SMODS.Joker {
             end
         end
         if context.cardarea == G.jokers and context.joker_main then
-            return {Xmult_mod = card.ability.extra.X_mult}
+            return {
+                Xmult_mod = card.ability.extra.X_mult
+            }
         end
     end,
+  end
 }
 SMODS.Joker {
     key = "02",
@@ -36,7 +39,9 @@ SMODS.Joker {
             end
         end
         if context.cardarea == G.jokers and context.joker_main then
-            return {Xmult_mod = card.ability.extra.X_mult}
+            return {
+            Xmult_mod = card.ability.extra.X_mult
+        }
         end
     end,
 }
