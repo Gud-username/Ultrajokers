@@ -11,5 +11,6 @@
 	"badge_text_colour": "6686bb",
 	"version": "1.0.0",
 	"dependencies": [
+		Cryptid
 	]
 }
