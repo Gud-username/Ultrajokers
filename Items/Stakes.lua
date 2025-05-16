@@ -6,7 +6,7 @@ local harmless = {
 	atlas = "Stake",
 	applied_stakes = { "lenient" },
 	modifiers = function()
-		G.GAME.win_ante = 9
+		G.GAME.modifiers.scaling = (G.GAME.modifiers.scaling or 1) - 1
 	end,
 	shiny = true,
 	order = 34,
@@ -20,7 +20,7 @@ local lenient = {
 	atlas = "Stake",
 	applied_stakes = { "white" },
 	modifiers = function()
-		G.GAME.modifiers.scaling = (G.GAME.modifiers.scaling or 1) + 1
+		G.GAME.win_ante = 7
 	end,
 	shiny = true,
 	order = 35,
@@ -63,6 +63,7 @@ local ukmd = {
 	applied_stakes = { "brutal" },
 	modifiers = function()
 		G.GAME.modifiers.scaling = (G.GAME.modifiers.scaling or 1) + 4
+		-- this will apply every base game stake soon
 	end,
 	shiny = true,
 	order = 38,
